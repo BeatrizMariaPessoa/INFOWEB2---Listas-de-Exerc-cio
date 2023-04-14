@@ -1,1 +1,1 @@
-# INFOWEB2---Listas-de-Exerc-cio
+# INFOWEB2---Listas-de-Exercicio
