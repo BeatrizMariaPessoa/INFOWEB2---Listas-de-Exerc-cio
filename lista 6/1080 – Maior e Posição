@@ -1,0 +1,9 @@
+x = 0
+
+for i in range(1, 100 + 1):
+  p = int(input())
+  if p > x:
+    x = p
+    s = i
+print(f'{x}')
+print(f'{s}')

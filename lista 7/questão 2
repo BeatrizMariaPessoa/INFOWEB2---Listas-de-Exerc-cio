@@ -1,0 +1,11 @@
+def maior(x, y, z):
+  m = x                                         
+  if y > m:
+    m = y
+  elif z > m:
+    m = z
+  print(m)
+x = int(input())
+y = int(input())
+z = int(input())
+maior(x, y, z)

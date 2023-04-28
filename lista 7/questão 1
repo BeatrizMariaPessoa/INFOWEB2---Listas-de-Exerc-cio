@@ -1,0 +1,8 @@
+def maior(x, y):
+  m = x
+  if y > m:
+    m = y
+  print(m)
+x = int(input())
+y = int(input())
+maior(x, y)

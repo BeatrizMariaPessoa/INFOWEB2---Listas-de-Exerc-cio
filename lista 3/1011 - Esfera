@@ -1,0 +1,8 @@
+raio = int(input())
+PI = 3.14159
+div = 4.0/3
+
+pt1 = div * PI
+pt2 = pt1 * (raio ** 3)
+
+print(f'VOLUME = {pt2:.3f}')

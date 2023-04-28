@@ -1,0 +1,17 @@
+valores = input().split()
+PI = 3.14159
+valora = float(valores[0])
+valorb = float(valores[1])
+valorc = float(valores[2])
+
+triangulo = valora * valorc / 2
+circulo = valorc ** 2 * PI
+trapezio = (valora + valorb) * valorc / 2
+quadrado =  valorb ** 2
+retangulo = valora * valorb
+
+print(f'TRIANGULO: {triangulo:.3f}')
+print(f'CIRCULO: {circulo:.3f}')
+print(f'TRAPEZIO: {trapezio:.3f}')
+print(f'QUADRADO: {quadrado:.3f}')
+print(f'RETANGULO: {retangulo:.3f}')

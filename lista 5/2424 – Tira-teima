@@ -1,0 +1,7 @@
+batata, pao = input().split()
+batata = int(batata)
+pao = int(pao)
+if batata < 0 or batata > 432 or pao < 0 or pao > 468:
+    print('fora')
+else:
+    print('dentro')

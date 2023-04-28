@@ -1,0 +1,6 @@
+c = input().split()
+metros = int(c[0])
+pista = int(c[1])
+
+garrafa = metros % pista
+print(garrafa)

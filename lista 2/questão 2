@@ -1,0 +1,5 @@
+v_nome = str(input('digite seu nome completo:')).split()
+
+nome = v_nome[0]
+
+print(nome)

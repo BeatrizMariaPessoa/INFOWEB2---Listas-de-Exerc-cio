@@ -1,0 +1,10 @@
+def senha(entrada):
+  if entrada == 2002:
+    print('Acesso Permitido')
+  else:
+    print('Senha Invalida')
+    entrada = int(input())
+    senha(entrada)
+
+entrada = int(input())
+senha(entrada)

@@ -1,0 +1,31 @@
+a = int(input())
+coelhos = 0
+ratos = 0
+sapos = 0
+
+for i in range(a):
+  lista = input().split()
+  numero = int(lista[0])
+  letra = lista[1]
+  if letra == 'C':
+    coelhos = coelhos + numero
+    
+  elif letra == 'R':
+    ratos = ratos + numero
+
+  else:
+    sapos = sapos + numero
+
+cobaias = coelhos + ratos + sapos
+
+porcentagem_coelhos = (100 * coelhos)/cobaias
+porcentagem_ratos = (100 * ratos)/cobaias
+porcentagem_sapos = (100 * sapos)/cobaias
+
+print(f'''Total: {cobaias} cobaias
+Total de coelhos: {coelhos}
+Total de ratos: {ratos}
+Total de sapos: {sapos}
+Percentual de coelhos: {porcentagem_coelhos:.2f} %
+Percentual de ratos: {porcentagem_ratos:.2f} %
+Percentual de sapos: {porcentagem_sapos:.2f} %''')
