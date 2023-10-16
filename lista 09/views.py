@@ -1,9 +1,12 @@
-from cliente import Cliente, NCliente
+from models.cliente import Cliente, NCliente
 
-def cliente_inserir(nome, email, fone):
-  cliente = Cliente(0, nome, email, fone)
-  NCliente.inserir(cliente)
-  
-def cliente_atualizar(id, nome, email, fone):
-  cliente = Cliente(id, nome, email, fone)
-  NCliente.atualizar(cliente)
+class View:
+  @classmethod
+  def cliente_inserir(cls, nome, email, fone):
+    cliente = Cliente(0, nome, email, fone)
+    NCliente.inserir(cliente)
+    
+  @classmethod
+  def cliente_atualizar(cls, id, nome, email, telefone):
+    cliente = Cliente(id, nome, email, fone)
+    NCliente.atualizar(cliente)
